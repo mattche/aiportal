@@ -1,0 +1,197 @@
+﻿body {
+    background-image: url("img/bg.png");
+    font-family: Helvetica, Arial;
+    color:#262830;
+    margin: 0px;
+    padding:0px;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    /*min-height: 100%;*/
+}
+
+.site-menu, .content
+{
+    float: left;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/****** Шапка ******/
+
+header {
+    background: #f0f0f0;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 150px;
+    background-image: url("img/headerbg.jpg");
+    clear: left;
+    margin-bottom: 10px;
+    font-family: Consolas;
+}
+
+header h1 {
+    font-size: 55px;
+    background-color: #02B36B;
+    display: inline-block;
+    color: #30333B;
+    /*color: #2F333B;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    /*outline: 8px solid rgba(2,177,106,0.5);*/
+}
+
+header h2 {
+    font-size: 25px;
+        font-weight: lighter;
+    background-color: #02B36B;
+    color: #FCFDFE;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+/****** Навигация ******/
+
+.site-menu
+{
+    width: 20%;
+    margin-right:2%;
+}
+
+nav {
+    /*outline: 1px solid red;*/
+    border: 2px solid rgba(144, 138, 138, 0.41);
+}
+
+nav ul {
+    background-color: rgba(240,240,240,1);
+    padding-left: 7px;
+    padding-right: 7px;
+    list-style: none;
+    margin: 0px;
+    /*width: 200px;*/
+    /*border: 1px solid green;*/
+}
+
+nav ul li {
+    border-bottom: 1px solid #02B36B;;
+    padding: 10px;
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+nav ul li:hover {
+    /*background-color: rgba(148, 237, 20, 0.79);*/
+    padding: 15px;
+    /*border-bottom: solid 1px green;*/
+    /*opacity: 0.6;*/
+    color: #02B36B;
+    transition: 300ms;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li.visited {
+    /*display: block;*/
+    /*background-color: #9ed130;*/
+    /*padding: 10px;*/
+    color: #02B36B;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/****** Контент ******/
+
+.content {
+    width: 74.5%;
+    border: 2px solid rgba(144, 138, 138, 0.41);
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    /*padding-top: 10px*/
+    /*padding-bottom: 90px;*/
+    /*outline: solid 2px red;*/
+}
+
+article {
+    background-color: rgba(240,240,240,1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+article h2 {
+    font-family: Helvetica, Arial;
+    border-bottom: solid 1px green;
+    padding: 5px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+/****** Футер ******/
+
+ .footer { /* Нижний блок */
+    background: #272830; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    color: #02B36B; /* Цвет текста */
+    /*position: absolute;
+    left: 0;
+    bottom: 0;*/
+    clear: left;
+    /*width: 100%;*/
+    height: 100px;
+}
+
+.footer p {
+    margin: 4px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer p a:hover {
+    border-bottom: 1px solid #02B36B;
+}
+
+/****** Чатбот ******/
+
+#botWindow {
+    /*padding: 10px;*/
+    max-height: 50px;
+    bottom: 10px;
+    margin-top: 50px;
+}
+
+#userConsole {
+    padding:  10px;
+    position: fixed;
+    top:185px;
+    background-color: #262830;
+    display: block;
+}
+
+#monitor {
+    background: white;
+    padding: 10px;
+}
