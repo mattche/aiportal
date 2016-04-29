@@ -17,10 +17,15 @@
     float: left;
 }
 
-img {
+img.floated{
     float: left;
     margin-right: 10px;
     margin-top: 5px;
+}
+
+img {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /****** Шапка ******/
@@ -141,10 +146,14 @@ article {
 
 article h2 {
     font-family: Helvetica, Arial;
-    border-bottom: solid 1px green;
+    border-bottom: solid 1px #02B36B;
     padding: 5px;
     font-weight: normal;
     margin: 0px;
+}
+
+article h3 {
+    font-weight: normal;
 }
 
 /****** Футер ******/
